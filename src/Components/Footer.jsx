@@ -114,9 +114,9 @@ function Footer() {
             Social Links
           </Text>
           <Flex mt={{ lg: '.8em' }} color={'#0E2368'} gap={{ lg: '2em',base:'1em' }}>
-            <Icon w={{lg:'30px' , base:'16px'}} h={{lg:'30px' ,base:'16px'}} as={AiOutlineInstagram} />
-            <Icon w={{lg:'30px' , base:'16px'}} h={{lg:'30px' ,base:'16px'}} as={AiOutlineTwitter} />
-            <Icon w={{lg:'30px' , base:'16px'}} h={{lg:'25px' ,base:'16px'}} as={ImFacebook} />
+           <a class="w3-btn w3-margin-bottom" href="https://www.instagram.com/jayanth_mkv/" target="_blank"><Icon w={{lg:'30px' , base:'16px'}} h={{lg:'30px' ,base:'16px'}} as={AiOutlineInstagram} /></a>
+           <a href="https://twitter.com/jayanthmkv/" target="_blank"><Icon w={{lg:'30px' , base:'16px'}} h={{lg:'30px' ,base:'16px'}} as={AiOutlineTwitter} /></a>
+           <a href="https://www.facebook.com/jayanthmkv/" target="_blank"><Icon w={{lg:'30px' , base:'16px'}} h={{lg:'25px' ,base:'16px'}} as={ImFacebook} /></a>
           </Flex>
         </Box>
         <Box color={'#828B9C'} lineHeight={{ base: '32px', lg: '27px' }}
