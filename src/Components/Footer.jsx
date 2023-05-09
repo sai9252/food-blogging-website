@@ -120,7 +120,7 @@ function Footer() {
           </Flex>
         </Box>
         <Box color={'#828B9C'} lineHeight={{ base: '32px', lg: '27px' }}
-            fontSize={{ base: '9.5px', lg: '21.8433px' }} >© 2022 Food Truck Example</Box>
+            fontSize={{ base: '9.5px', lg: '21.8433px' }} >© 2022 Food Truck Examples</Box>
       </Flex>
     </Flex>
   );
